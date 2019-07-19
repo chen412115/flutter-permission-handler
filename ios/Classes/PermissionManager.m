@@ -86,7 +86,8 @@
             return [PhonePermissionStrategy new];
             case PermissionGroupPhotos:
             return [PhotoPermissionStrategy new];
-            
+            default:
+            return nil;
       
     }
 }
